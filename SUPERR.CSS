@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* لون خلفية مريح مع لمسة وردية */
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #eb1b1b; /* لون العنوان باللون الأحمر الداكن */
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav button {
+    background-color:   rgb(189, 0, 0); /* لون زر مريح باللون الأحمر */
+    color: #ffffff;
+    border: none;
+    padding:10px 40px;
+    margin: 10px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nav button:hover {
+    background-color: #ff0000; /* لون زر عند التمرير */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background: #f7f7f7; /* لون خلفية الأطباق */
+    border-radius: 20px;
+    box-shadow: -0 8px 30px rgb(0, 0, 0);
+    margin: 60px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu-item h2 {
+    margin: 10px 0;
+    color: #fdfdfd; /* لون النص باللون الأحمر */
+}
+
+.menu-item p {
+    color: #e42727
+      
+      ; /* لون النص العادي */
+ font-size: 23px;
+}
+
+.price {
+    font-weight: bold;
+    color: #ffffff; /* لون بداخل المربع بلون ابيض واضح */
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-item {
+        width: 90%;
+    }
+  
+}
+.icon {
+            cursor: pointer; /* تغيير المؤشر عند المرور فوق الأيقونة */
+            transition: transform 0.2s; /* تأثير انتقال سلس */
+        }
+
+        .icon:active {
+            transform: scale(0.9); /* تصغير الأيقونة عند الضغط */
+        }
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            position: relative;
+        }
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .social-icons li {
+            display: inline;
+        }
+        .social-button {
+            background-color: #005bb6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            text-decoration: rgb(238, 6, 149);
+            transition: background-color 0.3s;
+            cursor: pointer;
+            display: flex; /* لجعل الأيقونة والنص في خط واحد */
+            align-items: center; /* محاذاة الأيقونة والنص */
+        }
+        .social-button i {
+            margin-right: 6px; /* مسافة بين الأيقونة والنص */
+        }
+        .social-button:hover {
+            background-color: #257e99;
+        }
