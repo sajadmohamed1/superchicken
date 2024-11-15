@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>super chicken</title>
+    <link rel="stylesheet" href="SUPERR.CSS"> <!-- رابط لملف CSS -->
+</head>
+<body>
+    <h1>SUPER CHICKEN</h1>
+    <div class="nav">
+        <button onclick="showMenu('all')">veiw all</button>
+        <button onclick="showMenu('sandwich')">super sandwich</button>
+        <button onclick="showMenu('twister')">super twister</button>
+        <button onclick="showMenu('pizza')">super pizza</button>
+              <button onclick="showMenu('saj')">super saj</button>
+              <button onclick="showMenu('rezo')">super rezo</button>
+              <button onclick="showMenu('kentucky')">super kentucky</button>
+              <button onclick="showMenu('strips')">super strips </button>
+              <button onclick="showMenu('Sandwich')">Super sandwich</button>
+              <button onclick="showMenu('dishes')">side dishes</button>
+
+
+
+
+
+
+    </div>
+    <div class="menu">
+        <div class="menu-item" data-category="sandwich">
+            <img src="https://scontent.fbgw1-3.fna.fbcdn.net/v/t39.30808-6/360156204_284855457454061_7744218377243969768_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Q1gsvApJw4UQ7kNvgHAKmWp&_nc_zt=23&_nc_ht=scontent.fbgw1-3.fna&_nc_gid=AuoZuxdlEBTsNeW9YUk8jrk&oh=00_AYBi8IeSLyUgCLK7pVwgeVYtaUfldIOqLWNVqt95QFOkPw&oe=6733A799" alt="فلر">
+            <h4>قطع صدر دجاج المقرمش مع صلصة الفلر الشهية وحلطة الاجبان المشوية يضاف اليها الطماطم والخس الطازج</h4>
+            <h1>فلر</h1>
+            <p class="price">6.000 د.ع </p>
+        </div>
+        <div class="menu-item" data-category="sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKyVy991v5M0u-E8SssGCE2N_Zrm8K2JVCRQ&s" alt="زنكًر">
+            <h4> قطع صدر الدجاج المقرمش مع صلصة الزنكًر اللذيذة وشريحة الحبش يضاف اليها الطماطم والخس </h4>
+            <h1>زنكًر </h1>
+            <p class="price">6.000 د.ع </p>
+        </div>
+        <div class="menu-item" data-category="sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOB4Makxr5OgbuXIAetfYxqQV748ngStC0PA&s" alt="كرسبي فرايز ">
+            <h4>قطع صدر الدجاج المقرمش مع الصلصة الخاصة والبطاطس المقلية يضاف اليها الطماطم والخس الطازج</h4>
+            <h1>كرسبي فرايز  </h1>
+            <p class="price">6.500 د.ع </p>
+        </div>
+        <div class="menu-item" data-category="sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSht_lcQU0cNGFkseYqTPOds3D8fp2njxwohA&s" alt="سبايسي كرسبي">
+            <h4>قطع صدر الدجاج المقرمش مع صلصة البايسي الرائعة وقطع فلفل الهالابينو والببروني اللذيذ يضاف اليها الطماطم والخس الطازج</h4>
+            <h1>   سبايسي كرسبي</h1>
+            <p class="price">6.500 د.ع </p>
+        </div>
+        <div class="menu-item" data-category="sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKyVy991v5M0u-E8SssGCE2N_Zrm8K2JVCRQ&s" alt="كرسبي مشروم ">
+            <h4>قطع صدر الدجاج المقرمش مع الصلصة السرية والمشروم المشوي الشهي مغطاة بخلطة الجبن يضاف اليها الطماطم والخس الطازج</h4>
+            <h1>كرسبي مشروم </h1>
+            <p class="price">6.500 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg4A7xiiJK-XJwY220bhl7t1sB22uHdLYABA&s" alt="كًرانشي كرسبي">
+            <h4>قطع صدر الدجاج المقرمشة مع الصلصة الخاصة بالاضافة الى الحبقات البصل المقرمشة وجبنة الشيدر يضاف اليها الطماطم والخس الطازج</h4>
+            <h1>كًرانشي كرسبي</h1>
+            <p class="price">6.500 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRybpwAqg6tXnAv3Eqim6Yaca1iUgiacA4QjQ&s" alt="كرسبي مدخن">
+            <h4> قطع صدر الدجاج المقرمش مع صلصة السموك وخلطة الاجبان المدخنة المشوية يضاف اليها الطماطم والخس </h4>
+            <h1>كرسبي مدخن  </h1>
+            <p class="price">6.500 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="twister">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmXiGMNE0bA2U4QQCLqDBJp-C9Haf8zcJa9w&s" alt="تويستر">
+            <h4>قطع صدر الدجاج المقرمش مع صلصة الاعشاب والحس الطازج ملفوفة بخبز الصاج</h4>
+            <h1> تويستر</h1>
+            <p class="price">6.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="twister">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPRCcg0gMCQ7Y9ZIQ_IeiY2tooav0H3eMlw&s" alt="تويستر مدخن">
+            <h4>قطع صدر الدجاج المقرمش مع صلصة السموك الشهية والبيكن المشوي مغطاة بالجبن المدخن مع الخس الطازج ملفوفة بخبز الصاج</h4>
+            <h1>  تويستر مدخن </h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="twister">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYW9D2aCVf6rAfpYj3tUZ00puSQOqiT5eTSQ&s" alt="تويستر سبايسي">
+            <h4>قطع صدر الدجاج المقرمش مع صلصة السرية وشريحة الحبش الشهي وشرائح الجبن مع قطع من الخس الطازج وفلفل الهالابينو ملفوفة بخبز الصاج</h4>
+            <h1>  تويستر سبايسي</h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="twister">
+            <img src="https://images.deliveryhero.io/image/talabat/MenuItems/cheesy_638556052279260389.jpg" alt="تشيزي تويستر ">
+            <h4>قطع صدر الدجاج المقرمش مع صلصة الجبن الخاصة وقطع المخلل والخس الطازج ملفوفة بخبز الصاج</h4>
+            <h1>  تشيزي تويستر </h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="rezo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1I1rX_JVUkj-DkKHAcTqL6Wt332jrpgPc4A&s" alt="ريزو">
+            <h4>رز السوبر مع قطع الدجاج المقرمشة وصلصة سوبر الخاصة</h4>
+            <h1>  ريزو سوبر جكن </h1>
+            <p class="price"> 6.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="rezo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcQzdkzkQdEdZGjVtt55wVtoTUCy0xYgoRhg&s" alt="ريزو مدخن">
+            <h4>رز مدخن مع قطع الدجاج المقرمشة وصلصة المدخن الخاصة </h4>
+            <h1>ريزو مدخن</h1>
+            <p class="price"> 6.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="rezo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxmFB08CrY4DnH0Br4nifQ-G74WBp4jx8EsQ&s" alt="ريزو اعشاب ">
+            <h4>رز السوبر مع قطع الدجاج المقرمشة وصلصة الاعشاب الرهيبة </h4>
+            <h1>ريزو اعشاب</h1>
+            <p class="price"> 6.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="rezo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZprg9OHZqziBvb9pVrux5qr3wprGfeBFunFDURU4flwaU_RXW4dTN6Z3PZX3CFnejW6M&usqp=CAU" alt="ريزو سبايسي ">
+            <h4>رز السوبر مع قطع الدجاج المقرمشة وصلصة السبايسي الخاصة </h4>
+            <h1>ريزو سبايسي </h1>
+            <p class="price"> 6.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="rezo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJOff6d1f6Nh4vQfiMBntbi1DJLH-aWkZIg&s" alt="ريزو جبن">
+            <h4>  رز السوبر مع قطع صدر الدجاج المقرمشة وصلصة الجبن الخاصة </h4>
+            <h1>  ريزو جبن </h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVngt4th-nWO8h2X8vmlbUC9yG_5lJmHRsw&s" alt="اصابع جبن">
+            <h4></h4>
+            <h1>اصابع جبن  </h1>
+            <p class="price"> 4.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhU4MBjhRydlOi5nOBQiL4PMBt7xuOn9Zx1A&s" alt="كرات الدجاج ">
+            <h4></h4>
+            <h1>كرات الدجاج</h1>
+            <p class="price"> 4.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSsIgjcBp_N8etYH59gg-hl7NH0hfO_NbU9w&s" alt="حلقات البصل ">
+            <h4></h4>
+            <h1>حلقات البصل </h1>
+            <p class="price"> 3.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEBrbaBVCIEOHpeHgl1UrNFHnJyzgszgVWCyeYF3Bl7HqP5gF_vuVP97H1144_x_h9f8&usqp=CAU" alt="بوب كورن سوبر">
+            <h4></h4>
+            <h1>بوب كورن سوبر</h1>
+        <h1>بوب كورن سبايسي </h1>
+            <p class="price"> 4.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="dishes">
+            <img src="https://images.deliveryhero.io/image/talabat/MenuItems/%D9%81%D9%86%D9%83%D8%B1_%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83638145608526024979.jpg" alt="فنكًر">
+            <h3>فنكًر</h3> 
+            <h1>كلاسيك</h1>
+         <h1>بالصلصة</h1>
+         <h1>بالجبن</h1>  
+            <p class="price"> 1.500 د.ع </p>
+        <p class="price"> 2.500 د.ع </p>
+        <p class="price"> 3.500 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqVjhpEGHD0k7CV3S7PKgFdUvQIISSibrCZQ&s" alt="قطع اضافية ">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrpclHUx0NApCis5gNm2db7bSuRtrSbIMarPYvpKpcZuPzDpzLWQKi5VtW41tgqk03p1s&usqp=CAU" alt="قطع اضافية ">
+            <h4></h4>
+            <h1>ستربس</h1>
+        <h1>كنتاكي</h1>
+        <p class="price"> 2.500 د.ع </p>
+            <p class="price"> 3.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="dishes">
+            <img src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ETA/ca8566b85b7338b52a9b6c4617c685f9.jpg?width=1440&quality=75" alt="اضافات">
+            <h3>اضافات </h3>
+            <h1>صمون اضافي</h1>
+             <h1>باربكيو</h1>
+              <h1>ثومية</h1>
+               <h1>سبايسي</h1>
+                <h1>كول سلو</h1>
+        
+            <p class="price"> 500 د.ع </p>
+        <p class="price"> 250 د.ع </p>
+        <p class="price">250 د.ع </p>
+        <p class="price"> 250 د.ع </p>
+        <p class="price"> 250 د.ع </p>
+      </div>
+        
+        <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsOMj7nHWc9VzWKcl1AoMEzbZLfXevYJRhcg&s" alt="مقبلات">
+            <h3>مقبلات</h3>
+            <h1>صغير</h1>
+          <h1>وسط</h1>
+          <h1>كبير</h1>
+            <p class="price">2.500 د.ع </p>
+          <p class="price">4.000 د.ع </p>
+          <p class="price">6.500 د.ع </p>
+      </div> 
+          <div class="menu-item" data-category="dishes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQa_Q_08q64VwEczwzYOGQDHbQgrJGNcjwCQ&s" alt="مشروبات">
+            <h3>مشروبات</h3>
+            <h1>قنينة ماء </h1>
+            <h1>عصير اطفال </h1>
+            <h1>بيبسي علبة </h1>
+            <h1>بيبسي مكينة </h1>
+            <p class="price"> 250 د.ع </p>
+            <p class="price"> 250 د.ع </p>
+            <p class="price"> 500 د.ع </p>
+            <p class="price"> 1.000 د.ع </p>
+    </div>
+      <div class="menu-item" data-category="kentucky">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdkiPGKEtUrHRa7WAhMX6ccFPo8ybQqTgvMgiVZrEE1-YronvNgsskMxFBMdfRu7W271E&usqp=CAU" alt="وجبة اطفال ">
+            <h3>ستربس + عصا طبل + ثومية + سوبر صوص + كول سلو + فنكر + عصير + 2 صمون + لعبة اطفال</h3>
+            <h1>وجبة اطفال</h1>
+            <p class="price">6.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="kentucky">
+            <img src="https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D9%83%D8%B1%D8%B3%D8%A8%D9%8A_%D8%B3%D8%AA%D8%B1%D8%A8%D8%B3638145716989117445.jpg" alt="وجبة نورمال">
+            <h3>قطعة دجاج كنتاكى 3  + ثومية + سوبر صوص كول سلو + فنكر + علبة بيبسي + 3 صمون</h3>
+            <h1>وجبة نورمال</h1>
+            <p class="price"> 9.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="kentucky">
+            <img src="https://images.deliveryhero.io/image/talabat/Menuitems/%D9%88%D8%AC%D8%A8%D8%A9_%D8%B4%D9%8A%D8%B1638145610875761960.jpg" alt="وجبة شير">
+            <h3> قطع دجاج كنتاكي 5 + 2 ثومية +  2 سوبر صوص + 2 كول سلو + فنكر + 2 علبة بيبسي + 5 صمون</h3>
+            <h1>وجبة شير </h1>
+            <p class="price">  14.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="kentucky">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPj7LdbAzGJvf-viSkk2bMhmbaW4bsBsvk63jTmgoCVbmC9ZDjB4PsUxhA5HPrhap-lPw&usqp=CAU" alt="وجبة اكسترا">
+            <h3> + قطعة دجاج كنتاكى 7 + 3 ثومية + 3 سوبر صوص
+3 كول سلو + فنكر + 3 علب  بيبسي + 7 صمون</h3>
+            <h1>وجبة اكسترا</h1>
+            <p class="price"> 19.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="kentucky">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWU4-Vwouxtl4eMfk1ReJKQOixfRkywYLG2KpVsM7A6eigPwgC4TzPcC1V4eABz7dfHY&usqp=CAU" alt="وجبة فاميلي ">
+         <h3>قطع دجاج كنتاكي 10 + 4 ثومية + 4 سوبر صوص + 4 كول سلو + فنكًر + بطل بيبسي + 10 صمون</h3>
+         <h1>وجبة فاملي</h1>
+            <p class="price"> 25.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="strips">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX91RRl9JkMfInapMotLIcAC_DRWhImlmJc0f9Ss20u1bsUgjbHiJ4uwSh7wF17SIhdEQ&usqp=CAU" alt="وجبة ستربس">
+            <h3>قطع ستربس دجاج 5 + ثومية + سوبر صوص + كول سلو + فنكر + علبة بيبسي + 4 صمون</h3>
+            <h1>وجبة ستربس</h1>
+            <p class="price"> 9.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="strips">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcv2N93j4DM9T9gLGQW9N884zROO6DyeVjmyWgPDTlbFUgHR1pw_KoDRDZuDqP7Egy7OM&usqp=CAU" alt="ستربس مشاركة">
+            <h3>قطع ستربس دجاج 10 + 2 ثومية + 2 سوبر صوص + 2 كول سلو + فنكر + 2 علبة بيبسي + 8 صمون</h3>
+            <h1>ستربس مشاركة</h1>
+            <p class="price"> 14.000  د.ع </p>
+        </div> <div class="menu-item" data-category="saj">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6bxoArqJA_vbck03P1TGeGg7SVdzN1QJWqqM1zUHqm4-Tc6Iy8acosRv38j9jchaBPY&usqp=CAU" alt="صاج ايطالي لحم">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة وشاورما اللحم العراقي اللذيذ مع خلطة الجبن الشهية والبطاطس المقلية وقطع الخضار وشرائح الزيتون</h3>
+            <h1>صاج ايطالي لحم</h1>
+            <p class="price"> 7.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="saj">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8yxiDUGZ9oYv9pD7IV8G2b9745meJqgbscg&s" alt="صاج ايطالي دجاج">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة وشاورما الدجاج اللذيذ مع خلطة الجبن الشهية والبطاطس المقلية وقطع الخضار وشرائح الزيتون</h3>
+            <h1>صاج ايطالي دجاج</h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="Sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALbTxIsU2xs0dBCZwsbL5d0HndvkYG3qNcBWIK3jvPdEWnjDr7SBI25Iy-xjsr6Uczg0&usqp=CAU" alt="جكن مشروم">
+            <h3>قطع صدر الدجاج المتبلة والمشوية على الكرل مغطاة بصلصة المشروم الخاصة مع الجبن المشوي الشهي
+والخس الطازج</h3>
+            <h1>جكن مشروم</h1>
+            <p class="price"> 7.000 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="Sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Y3Hfd8afEj2edJ6u-beS9m6tMyjwsw89Gg&s" alt="سموك جكن">
+            <h3>قطع صدر الدجاج المتبلة المشوية على الكرل مغطاة بصلصة السموك السرية وشرائح البيكن مع خلطة الجبن المدخن المشوي</h3>
+            <h1>سموك جكن</h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+       <div class="menu-item" data-category="Sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZevAE_JtBxGDSLYtbGWDisg7Agf2mnxNndw&s" alt="فاهيتا دجاج">
+            <h3>قطع صدر الدجاج المتبلة مغطاة بصلصة الفاهيتا الخاصة مع الخضار والمشروم يضاف اليها خليط الاجبان الشهية والخس الطازج</h3>
+            <h1>فاهبتا دجاج</h1>
+            <p class="price"> 7.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="Sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDA9lLlHhRv1sTUkKe2f7JibdPucoFLctcQ&s" alt="مكسيكي">
+            <h3>قطع صدر الدجاج المتبلة مغطاة بصلصة المكسيكي الحادة مع الخضار وقطع المخلل
+والخس الطازج</h3>
+            <h1>مكسيكي</h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="Sandwich">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTfDJssepnPfWJJBq4Jmo1ViK4JLFOgWrL4w&s" alt="سوبريم">
+            <h3>قطع صدر الدجاج المقرمش مع شريحة الحبش وجبنة الشيدر وصلصة السوبريم الخاصة يضاف اليها حبات الذرة والخس الطازج</h3>
+            <h1>سوبريم</h1>
+            <p class="price"> 6.500 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXj5HLocbqUhtinTxvRFLkZOLWLbhZdYKuf7v-k3sej3XnI2FAV0myiyRAZ3tjXPygC8s&usqp=CAU" alt="بيتزا شاورما لحم">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة وشاورما اللحم مع خلطة الجبن الشهية بالإضافة إلى قطع الخضار الطازج وشرائح الزيتون</h3>
+            <h1>بيتزا شاورما لحم</h1>
+        <h1>صغير</h1>
+         <h1>وسط</h1>
+         <h1>كبير</h1>
+            <p class="price"> 8.000 د.ع </p>
+        <p class="price"> 14.000 د.ع </p>
+        <p class="price">  16.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_TE3w1KlxZQ979isoNHsOrDI4KgWdh1xMg&s" alt="بيتزا شاورما دجاج">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة وشاورما الدجاج مع خلطة الجبن الشهية بالإضافة إلى قطع الخضار الطازج وشرائح الزيتون</h3>
+            <h1>بيتزا شاورما دجاج</h1>
+         <h1>صغير</h1>
+         <h1>وسط</h1>
+         <h1>كبير</h1>
+            <p class="price"> 7.000 د.ع </p>
+        <p class="price"> 12.000 د.ع </p>
+        <p class="price"> 14.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpmy5eDl1oHdGaIXSv-6yya3e5rtZ75kE1wWQHRTrUkqM4vEcgEmSEGr7YCpvG5zCnN28&usqp=CAU" alt="بيتزا كرسبي مدخن">
+            <h3>عجينة سوبر الخاصة عليها طبقة من الصلصة السرية وقطع الدجاج المقرمش مع شرائح البيكن اللذيذة مع خلطة الجبن المدخن الشهية يضاف لأطرافها
+قطع الدجاج المقرمش</h3>
+            <h1>بيتزا كرسبي مدخن</h1>
+            <p class="price"> 15.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLv_CaGdgusBUGsdVMFNqez8_UhmWz0XYuwQ&s" alt="بيتزا مشكل">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة مع مزيج شاورما الدجاج واللحم وحبات الذرة و شرائح الزيتون والفطر مع شرائح الصوصج مع خلطة الجبن الشهية</h3>
+            <h1>بيتزا مشكل</h1>
+          <h1>صغير</h1>
+         <h1>وسط</h1>
+         <h1>كبير</h1>
+            <p class="price"> 8.000 د.ع </p>
+        <p class="price"> 14.000 د.ع </p>
+        <p class="price"> 16.000  د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRD4-yswOuvFeEJGA21KRrJeNFqvbQcIWjz88ve_F_3BtFEF1iUtQNo9ANZGoRmc-e4k&usqp=CAU" alt="بيتزا ببروني">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة مع قطع البيروني اللذيذة
+وخلطة الجبن الشهية</h3>
+            <h1>بيتزا ببروني"</h1>
+         <h1>صغير</h1>
+         <h1>وسط</h1>
+         <h1>كبير</h1>
+            <p class="price"> 7.000 د.ع </p>
+        <p class="price"> 10.000 د.ع </p>
+        <p class="price"> 12.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvliHzHLmmV7V6JvKP5Z79Khb_NLPfZ1ZBhQ&s" alt="بيتزا خضار">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة مع شرائح الفلفل الملون وحبات الذرة والزيتون بالإضافة إلى شرائح الفطر مع خلطة الجبن الشهية</h3>
+            <h1>بيتزا خضار</h1>
+          <h1>صغير</h1>
+         <h1>وسط</h1>
+         <h1>كبير</h1>
+            <p class="price"> 5.000 د.ع </p>
+        <p class="price"> 8.000 د.ع </p>
+        <p class="price"> 10.000 د.ع </p>
+        </div>
+      <div class="menu-item" data-category="pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKpP-VxmcA2BQEvqe9SKF9KGQI9DZj_zK9w&s" alt="بيتزا ماركًريتا (جبن)">
+            <h3>عجينة سوبر الخاصة مغطاة بصلصة الطماطم الرائعة يضاف عليها خليط من الاجبان
+السائحة الشهية</h3>
+            <h1>بيتزا ماركًريتا (جبن)</h1>
+          <h1>صغير</h1>
+         <h1>وسط</h1>
+         <h1>كبير</h1>
+            <p class="price"> 5000 د.ع </p>
+        <p class="price"> 8000 د.ع </p>
+        <p class="price"> 10000 د.ع </p>
+        </div>
+     
+  </div>
+  
+  <footer>
+        <p>تابعنا على مواقع التواصل الاجتماعي:</p>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/superchicken.iq" id="facebook" class="social-button"><i class="fab fa-facebook-f"></i> فيسبوك</a></li>
+           <li><a href="https://www.instagram.com/superchicken.iq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" id="instagram" class="social-button"><i class="fab fa-instagram"></i> إنستغرام</a></li>
+          </ul>
+        <p>&copy; @sj4g جميع الحقوق محفوظة.</p>
+    </footer>
+ 
+
+    <script src="SUP.JS"></script> <!-- رابط لملف JavaScript -->
+</body>
+</html>
